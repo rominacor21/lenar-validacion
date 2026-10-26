@@ -1,0 +1,12 @@
+body { font-family: Arial, sans-serif; background: #FFF7F0; margin: 0; padding: 30px; }
+.container { max-width: 420px; margin: auto; padding: 20px; }
+.card { background: #FFFFFF; padding: 20px; border-radius: 12px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.08); margin-bottom: 20px; }
+h1, h2 { color: #C86B28; font-weight: 700; }
+button, a.btn { width: 100%; padding: 14px; background: #E5924C; color: white;
+                border: none; border-radius: 8px; font-size: 16px; margin-top: 10px;
+                text-align: center; display: block; text-decoration: none; cursor: pointer; }
+label { font-weight: bold; color: #C86B28; }
+select { width: 100%; padding: 10px; border-radius: 8px; margin-top: 6px; }
+.foto { width: 100%; border-radius: 8px; display: block; }
+.hidden { display: none; }

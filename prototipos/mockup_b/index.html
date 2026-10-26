@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mockup B - Con Tracking</title>
+<link rel="stylesheet" href="../assets/estilos.css">
+<script src="../assets/pantallas.js"></script>
+</head>
+<body>
+<div class="container">
+  <div id="home" class="screen">
+    <h1>Lenar App</h1>
+    <div class="card">
+      <h2>Seleccioná Pack</h2>
+      <button onclick="show('zona')">Pack 20kg - $350</button>
+      <button onclick="show('zona')">Pack 40kg - $650</button>
+    </div>
+  </div>
+  <div id="zona" class="screen hidden">
+    <h2>Elegir zona</h2>
+    <select>
+      <option>Montevideo</option>
+      <option>Canelones</option>
+    </select>
+    <button onclick="show('horario')">Continuar</button>
+  </div>
+  <div id="horario" class="screen hidden">
+    <h2>Elegir horario</h2>
+    <select>
+      <option>15–17h</option>
+      <option>17–19h</option>
+    </select>
+    <button onclick="show('tracking')">Confirmar pedido</button>
+  </div>
+  <div id="tracking" class="screen hidden">
+    <h2>Pedido confirmado</h2>
+    <p><strong>Tracking:</strong> En camino</p>
+    <button onclick="show('home')">Finalizar</button>
+  </div>
+</div>
+</body>
+</html>
